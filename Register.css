@@ -1,0 +1,36 @@
+.register_wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+    margin-top:75px;
+}
+
+input[type = "text"], input[type = "password"], input[type= "number"]{
+    width:200px;
+    padding:2px;
+    font-size:16px;
+}
+
+.register_header {
+    text-align:center;
+    margin-top:5px;
+    margin-bottom: 20px;
+    color:red;
+    font-size:24px;
+}
+
+.label_header{
+    font-size:20px;
+}
+
+.register_button {
+    width:7%;
+    padding:3px;
+}
+
+.register_status {
+    text-align:center;
+    color:red;
+}

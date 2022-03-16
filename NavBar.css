@@ -1,0 +1,58 @@
+
+
+.navbar_container {
+    background-color:rgb(67, 235, 123);
+    padding: 40px;
+    /* display:flex;
+    flex-direction:row; */
+}
+
+.navbar_wrapper {
+    font-size:22px;
+    display:flex;
+    flex-direction: row;
+}
+
+.navbar_wrapper h3 {
+    font-size: 34px;
+}
+
+.navbar_wrapper h3 {
+    text-align:left;
+}
+
+.navbar_routes {
+    margin-left:140px;
+    margin-top: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+}
+
+.navbar_routes a {
+    text-decoration: none;
+    color:black;
+    font-style:oblique;
+}
+
+a:hover {
+    background-color:rgba(235, 235, 235, 0.219);
+    border-radius: 10px;
+}
+
+.navbar_logo:hover {
+    background-color:rgb(67, 235, 123);
+
+}
+
+.session_info{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:10px;
+    
+}

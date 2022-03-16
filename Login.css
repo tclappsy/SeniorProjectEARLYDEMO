@@ -1,0 +1,38 @@
+
+.login_wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:65px;
+    border:1px black solid;
+}
+
+input[type = "text"], input[type = "password"]{
+    width:200px;
+    padding:2px;
+    font-size:16px;
+}
+
+.login_header {
+    text-align:center;
+    margin-top:5px;
+    margin-bottom: 20px;
+    color:red;
+    font-size:24px;
+}
+
+.label_header{
+    font-size:20px;
+}
+
+.login_button {
+    width:7%;
+    padding:3px;
+}
+
+.login_status {
+    margin-top:10px;
+    text-align:center;
+    color:red;
+}

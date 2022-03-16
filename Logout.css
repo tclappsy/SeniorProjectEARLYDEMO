@@ -1,0 +1,15 @@
+.login_redirect {
+    color:red;
+
+}
+
+.logout_message{
+    margin-top:70px;
+    text-align: center;
+}
+
+.logout_button {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
